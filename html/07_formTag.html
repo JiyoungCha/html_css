@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>formTag</title>
+</head>
+<body>
+  <!-- <form> 다음에 <fieldset> -->
+  <form action="">
+      <fieldset>
+        <!-- <fieldset> 박스 만들기 -->
+        <!-- <leagend> 이름 적기 -->
+        <legend>연습</legend>
+        <!-- <form> 정보를 제출하기 위해 범위를 지정하는 역할 -->
+          <!-- action: 이 요청을 받아야하는 서버의 주소 -->
+      <!-- <label> for 값고 같은 이름의 id를 가진 것에 이동  -->
+      <label for="email">이메일: </label><br>
+      <!-- <input> 데이터를 입력 받는 태그 -->
+      <!-- placeholder: 칸 안에 설명 적음 -->
+      <input type="email" name="email" id="email" placeholder="email을 적어주세요."><br>
+      <!-- name, id 같은 걸로 설정(name필수) -->
+      <!-- id: html 값을 특정할 수 있는 이름. 중복x -->
+      <label for="password">비밀번호:</label><br>
+      <!-- minlength: 최소값 / maxlength: 최대값 -->
+      <input type="password" name="password" id="password" placeholder="비밀번호" minlength="8" ><br>
+      <!-- button: 자료 전송x reset: 정보 삭제 submit: 전송 -->
+    </fieldset>
+    <fieldset>
+      <!-- min: 최소값 / max: 최대값 -->
+      <input type="number" name="number" id="number" min="1" max="5">
+      <!-- date: 날짜 선택 창 -->
+      <input type="date"><br>
+      <!-- checkbox: 복수의 선택을 할 수 있는 경우 -->
+      <!-- name이 같아야 같은 체크박스 항목으로 인식 -->
+      <!-- checked: 미리 체크 되어있음 -->
+      <input type="checkbox" name="foods" id="banana" checked>
+      <label for="banana">바나나</label><br>
+      <input type="checkbox" name="foods" id="apple">
+      <label for="apple">사과</label><br>
+      <!-- radio: 하나만 선택 가능 -->
+      <input type="radio" name="animals" id="dog">
+      <label for="dog">강아지</label>
+      <input type="radio" name="animals" id="cat">
+      <label for="cat">고양이</label><br>
+      <!-- <select>에는 <option>이 있어야함 -->
+      <select name="poketmon" id="poketmon">
+        <option value="0">피카츄</option>
+        <option value="1">라이츄</option>
+        <option value="2" selected>파이리</option>
+      </select>
+      <!-- hidden: 화면에 보이진 않지만 사용자가 입력을 마치면 함께 서버로 전송 -->
+      <input type="hidden" name="test" value="0"><br>
+      <!-- rows세로 / cols가로 -->
+      <textarea name="" id="">메모</textarea>
+    </fieldset>
+    <button type="submit">전송</button>
+    <button type="reset">초기화</button>
+    <!-- button: 효과 없음 -->
+    <button type="button">버튼</button>
+  </form>  
+</body>
+</html>
