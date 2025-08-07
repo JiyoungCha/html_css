@@ -1,0 +1,62 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  /* 외곽선 까지 합쳐서 px 계산 */
+}
+
+.container {
+  width: 600px;
+  margin: 0px auto;
+}
+
+/* Header */
+header {
+  background-color: black;
+  padding: 20px;
+}
+
+h1 {
+  color: white;
+  margin-bottom: 30px;
+}
+
+.header-info {
+  color: orange;
+}
+
+/* Main */
+.main-title {
+  background-color: black;
+  color: white;
+  margin-top: 10px;
+  padding: 10px 20px;
+}
+
+.main-box-base {
+  border: 1px solid grey;
+  text-align: center;
+}
+
+.main-sub-title {
+  color: red;
+
+  margin-bottom: 20px;
+}
+
+.main-word-hightlights {
+  color: blue;
+}
+
+.main-contents-big-bord {
+  font-size: 20px;
+  font-weight: 900;
+}
+
+.main-contents-margin-bottom {
+  margin-bottom: 20px;
+}
+
+.main-contents-margin-top {
+  margin-top: 20px;
+}

@@ -1,0 +1,29 @@
+.div-mainbox {
+  border: 1px solid gray;
+  width: 500px;
+  height: 500px;
+}
+
+.div-position {
+  border: 1px solid gray;
+  width: 150px;
+  height: 150px;
+}
+.div-position1 {
+  position: absolute; 
+			top: 50px; 
+			left: 50px;
+}
+
+.div-position2 {
+  position: relative; 
+			top: 100px; 
+			left: 250px;
+}
+
+.div-position3 {
+  position: absolute; 
+			bottom: 50px; 
+			left: 50px;
+}
+ 

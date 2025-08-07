@@ -1,7 +1,13 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+ }
+
 .title {
   background-color: black;
   padding: 1px 10px 1px;
-  width: 582px;
+  width: 600px;
   margin: auto;  
   
 }
@@ -17,18 +23,18 @@ p {
   color: white;
   margin: auto;  
   margin-top: 10px;
-  width: 582px;
+  width: 600px;
   padding: 10px;
 }
 
 .main {
   margin: auto;  
-  border-style: solid;
+  border: 1px solid gray;
   width: 600px;
-  padding: 0px 0px 30px;
+  padding: 0px 0px 30px; 
   text-align: center;
-  border-width: 1px;
-}
+  }
+
 h2 {
   color: red;
 }
@@ -38,11 +44,11 @@ h2 {
 
 .callmumber {
   margin: auto;  
-  border-style: solid;
+  border: 1px solid gray;
   width: 600px;
   padding: 0px 0px 30px;
   text-align: center;
-  border-width: 1px;
 }
+
 
 /* 근데 이런 건 보통 웹디가 이미지 만들어 줌 */
