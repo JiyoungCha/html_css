@@ -1,0 +1,48 @@
+.title {
+  background-color: black;
+  padding: 1px 10px 1px;
+  width: 582px;
+  margin: auto;  
+  
+}
+h1 {
+  color: white;
+}
+p {
+  color: orange;
+}
+
+.check {
+  background-color: black;
+  color: white;
+  margin: auto;  
+  margin-top: 10px;
+  width: 582px;
+  padding: 10px;
+}
+
+.main {
+  margin: auto;  
+  border-style: solid;
+  width: 600px;
+  padding: 0px 0px 30px;
+  text-align: center;
+  border-width: 1px;
+}
+h2 {
+  color: red;
+}
+.blue { 
+  color: blue;
+}
+
+.callmumber {
+  margin: auto;  
+  border-style: solid;
+  width: 600px;
+  padding: 0px 0px 30px;
+  text-align: center;
+  border-width: 1px;
+}
+
+/* 근데 이런 건 보통 웹디가 이미지 만들어 줌 */
