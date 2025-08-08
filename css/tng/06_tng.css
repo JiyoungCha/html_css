@@ -1,13 +1,8 @@
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
- }
 
 .title {
   background-color: black;
   padding: 1px 10px 1px;
-  width: 600px;
+  width: 582px;
   margin: auto;  
   
 }
@@ -23,7 +18,7 @@ p {
   color: white;
   margin: auto;  
   margin-top: 10px;
-  width: 600px;
+  width: 582px;
   padding: 10px;
 }
 

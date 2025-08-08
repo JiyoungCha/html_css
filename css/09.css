@@ -1,0 +1,39 @@
+.background-test1 {
+  padding: 10px;
+  background-color: #fff8d1;
+  border: 3px dotted #000;
+  /* background-clip: 백그라운드 영역 지정 */
+  background-clip: content-box;
+  
+}
+
+.div-bg-img {
+  border: 3px solid #f00;
+  width: 1000px;
+  height: 1000px;
+  background-image: url('../html/img/new/vue-logo.png');
+  /* 두번 째 거는 예비 이미지. 앞 이미지에 배경이 없을 경우 둘 다 나옴 주의 */
+  background-size: 220px;
+  /* 배경 이미지의 반복 방법 조절 */
+  background-repeat: no-repeat;
+  /* 배경 이미지 위치를 조절 */
+  background-position: top 10 right 10;
+  opacity: 1;
+}
+
+body {
+  background-image: url('../html/img/brownpanda.jpg');
+  /* 스크롤이 생길 경우 요소의 배경 이미지를 고정 */
+  background-attachment: fixed;
+  /* 배경 이미지의 크기 조절 */
+  background-size: 100%;
+}
+.div-gradation {
+  width: 200px;
+  height: 500px;
+  /* 선형 그라데이션 */
+  /* background: linear-gradient(to left, #1d1d1d,#0f0425 40%,#610622) */
+  /* 원형 그라데이션 */
+  background: radial-gradient(circle at 0% 50%, #000, #f1f1f1);
+  background: linear-gradient();
+}
