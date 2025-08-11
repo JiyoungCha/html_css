@@ -1,0 +1,7 @@
+/* 가상요소 */
+/* before(앞에 삽입) / after(뒤에 삽입) */
+.required-sign::before{
+  content: '*';
+  color: #f00;
+}
+

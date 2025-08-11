@@ -56,7 +56,7 @@ a:active {
 }
 
 /* focus: 포커스가 적용되어 있는 요소 선택 */
-*:focus {
+.red-box:focus {
   border: 3px solid #ff0000;
   outline: none;
 }

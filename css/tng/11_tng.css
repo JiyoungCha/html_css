@@ -1,0 +1,60 @@
+.input-box {
+  margin-bottom: 15px;
+}
+
+.box {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-image: url(../../html/img/iwantyou.jpg);
+  width: 500px;
+}
+
+.box-title {
+ color: #ff4646;
+ font-weight: bolder;
+ font-size: 35px;
+}
+
+.account-sign::before {
+  content: '*';
+  color: #f00;
+}
+
+input, textarea {
+  background-color: transparent;
+}
+
+label {
+  vertical-align: top;
+}
+
+.textarea-memo {
+  width: 200px;
+  height: 120px;
+}
+
+.focus-border:focus {
+  border: 3px solid #f00;
+  outline: none;
+}
+
+.check-color:checked + label{
+  color: #f00;
+}
+
+button{
+  position: relative;
+}
+
+.btn-submit:hover::after {
+  position: absolute;
+  top: 0;
+  left: 55px;
+  content: '내용을 다시 한 번 확인해 주세요.';
+  width: 300px;
+  background-color: #000;
+  color: #fff;
+  font-size: 20px;
+}
+
+
