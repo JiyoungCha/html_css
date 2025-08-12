@@ -1,0 +1,23 @@
+div {
+  width: 200px;
+  height: 200px;
+  background-color: #000;
+}
+
+/* 뷰의 width를 기준으로 작용 */
+@media (max-width: 500px) {
+  div{
+  background-color: #f00;
+  width: 100px;
+  height: 100px;
+  }
+}
+
+@media (min-width: 501px) and (max-width: 800px) {
+  div {
+    background-color: #00f;
+    width: 150px;
+    height: 150px;
+  }
+}
+/* 사라지게 하고 싶으면 display: none: */
